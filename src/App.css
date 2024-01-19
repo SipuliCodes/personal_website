@@ -1,0 +1,64 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 15% auto 15% 10%;
+    height: 97vh;
+}
+
+.findMe {
+  align-self: flex-start;
+  order: 0;
+}
+
+.linkedIn {
+  order: -1;
+  color: lightblue;
+  position: relative;
+  right: 50px;
+}
+
+.github {
+  order: 1;
+  color: lightcoral;
+  position: relative;
+  left: 50px;
+}
+
+.item1 {
+  border: 2px solid green;
+  grid-row: 1;
+}
+
+.item2 {
+  border: 2px solid white;
+}
+
+.item3 {
+  border: 1px solid purple;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.item4 {
+  border: 1px solid pink;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.info {
+  position: relative;
+  left: 50px;
+}
+
+.header {
+  color: white;
+}
