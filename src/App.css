@@ -8,7 +8,12 @@
 .grid-container {
     display: grid;
     grid-template-rows: 15% auto 15% 10%;
-    height: 97vh;
+    height: 95vh;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
 .findMe {
@@ -21,6 +26,7 @@
   color: lightblue;
   position: relative;
   right: 50px;
+  bottom: 15px;
 }
 
 .github {
@@ -28,26 +34,25 @@
   color: lightcoral;
   position: relative;
   left: 50px;
+  bottom: 15px;
 }
 
 .item1 {
-  border: 2px solid green;
   grid-row: 1;
 }
 
 .item2 {
-  border: 2px solid white;
 }
 
 .item3 {
-  border: 1px solid purple;
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
 
 .item4 {
-  border: 1px solid pink;
+  border: 1px solid white;
+  border-radius: 15px;
   color: white;
   display: flex;
   justify-content: flex-start;
@@ -61,4 +66,10 @@
 
 .header {
   color: white;
+}
+
+.left-main {
+}
+.name {
+  font-size: 75px;
 }
