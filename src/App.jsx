@@ -1,17 +1,16 @@
 import "./App.css"
 
 import Footer from './components/Footer'
-import ContactDetails from "./components/ContactDetails"
 import Header from "./components/Header"
-import Main from "./components/Main"
+import Home from "./components/Home"
+import Weather from "./components/Weather"
 
 function App() {
 
   return (
     <div className='grid-container'>
       <Header />
-      <Main />
-      <ContactDetails />
+      <Home />
       <Footer />
       
     </div>
