@@ -11,7 +11,7 @@ const Home = () => {
           <p>ICT student at University of Turku</p>
         </div>
         <div>
-          <img src={me_img} width="240px"/>
+          <img src={me_img} width="38%"/>
         </div>
       </div>
       <ContactDetails />

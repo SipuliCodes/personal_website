@@ -31,6 +31,7 @@ const Weather = () => {
       const response = await WeatherService.getAll(city)
       setWeatherCity(response.data.city.name)
       setWeathers(response.data.list)
+      setCity("")
     }
   }
 
@@ -52,10 +53,9 @@ const Weather = () => {
           className={`date-buttons ${today + offset === day ? 'active-button' : 'passive-button'}`}
           onClick={handleClick}
         >
-          {today + offset}
+          { `${today + offset}.${month}` }
         </button>
       ))}
-      <h2 style={{margin: "0px"} }>{`${day}.${month}` }</h2>
       <div className='weather-table'>
         {weathers
           .filter(weather => weather.dt_txt.includes(dateInCorrectForm))
