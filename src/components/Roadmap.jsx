@@ -24,7 +24,7 @@ const Roadmap = () => {
     <div className="roadmap-grid-container">
       <div className="flex-header">
         <h1 className="header">Roadmap</h1>
-        <p>Place your mouse on the titles to see more info</p>
+        <p>Place your mouse on the titles for more info</p>
       </div>
       <div className="coming roadmap-boxes">
         <h2> In future</h2>
