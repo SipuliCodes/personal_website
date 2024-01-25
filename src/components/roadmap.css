@@ -1,0 +1,74 @@
+.roadmap-grid-container {
+  display: grid;
+  grid-template: 
+    "header header header" 30%
+    "coming working done" 70% / 1fr 1fr 1fr;
+  padding: 0 1% 1% 1%;
+}
+
+.flex-header {
+  grid-area: header;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.header {
+  margin: 0.5% 0;
+
+}
+
+.roadmap-boxes {
+  border: 5px solid;
+  border-radius: 10px;
+  margin: 0 5% 2% 5%;
+}
+
+.coming {
+  grid-area: coming;
+  background-color: rgb(34, 34, 103);
+}
+
+.working {
+  grid-area: working;
+  background-color: rgb(110, 110, 21);
+}
+
+.done {
+  grid-area: done;
+  background-color: rgb(16, 50, 16);
+}
+
+.tasks-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.inner {
+  flex-basis: 49%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.task {
+  margin: 0;
+  width: fit-content;
+}
+
+.task:hover {
+  color: grey;
+}
+
+.task:hover ~ .onhover {
+  visibility: visible;
+}
+
+.onhover {
+  visibility: hidden;
+  font-size: 10px;
+  margin: 0 5%;
+}
