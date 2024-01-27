@@ -1,0 +1,21 @@
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-rows: 80% 20%;
+}
+
+.name {
+  font-size: 60px;
+  transform: rotate(-1deg) rotateX(10deg) skewX(10deg);
+  width: 30%;
+}
+
+.profile-pic {
+  width: 40%;
+  min-width: 250px;
+}

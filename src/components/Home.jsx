@@ -1,18 +1,19 @@
 import me_img from '../assets/me.png'
+import "./home.css"
 
 import ContactDetails from "./ContactDetails"
 
 const Home = () => {
   return (
     <div className='home-grid'>
-      <div className='item2 main-container'>
-        <div className='left-main'>
-          <h1 className='name'>Sisu <br/>Vepsäläinen</h1>
-          <p>ICT student at University of Turku</p>
-        </div>
-        <div>
-          <img src={me_img} width="38%"/>
-        </div>
+      <div className='main-container'>
+          <div className='left'>
+            <h1 className='name'>Sisu <br/>Vepsäläinen</h1>
+            <p>ICT student at University of Turku</p>
+          </div>
+          <div className='right'>
+            <img src={me_img} className='profile-pic' />
+          </div>
       </div>
       <ContactDetails />
     </div>

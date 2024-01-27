@@ -7,18 +7,8 @@
 
 .grid-container {
     display: grid;
-    grid-template-rows: 10% 80% 10%;
+    grid-template-rows: 10% auto 10%;
     height: 97vh;
-}
-
-.main-container {
-  display: grid;
-  grid-template-columns: 50% 50%;
-}
-
-.home-grid {
-  display: grid;
-  grid-template-rows: 80% 20%;
 }
 
 .findMe {
@@ -44,9 +34,6 @@
 
 .item1 {
   grid-row: 1;
-}
-
-.item2 {
 }
 
 .item3 {
@@ -99,18 +86,6 @@
 .passive {
   background-color: white;
   color: black;
-}
-
-
-.left-main {
-}
-.name {
-  font-size: 60px;
-  text-align: start;
-  position: relative;
-  left: 20%;
-  transform: rotate(-1deg) rotateX(10deg) skewX(10deg);
-  width: 30%;
 }
 
 .weather-table {

@@ -22,21 +22,23 @@ const Roadmap = () => {
 
   return (
     <div className="roadmap-grid-container">
-      <div className="flex-header">
+      <div>
         <h1 className="header">Roadmap</h1>
         <p>Place your mouse on the titles for more info</p>
       </div>
-      <div className="coming roadmap-boxes">
-        <h2> In future</h2>
-        <RoadmapTasks map={futureFeatures} />
-      </div>
-      <div className="working roadmap-boxes"> 
-        <h2> Under progress</h2>
-        <RoadmapTasks map={ underProgress} />
-      </div>
-      <div className="done roadmap-boxes">
-        <h2> Completed </h2>
-        <RoadmapTasks map={ completed} />
+      <div className="flex-body">
+        <div className="coming roadmap-boxes">
+          <h2> In future</h2>
+          <RoadmapTasks map={futureFeatures} />
+        </div>
+        <div className="working roadmap-boxes"> 
+          <h2> Under progress</h2>
+          <RoadmapTasks map={ underProgress} />
+        </div>
+        <div className="done roadmap-boxes">
+          <h2> Completed </h2>
+          <RoadmapTasks map={ completed} />
+        </div>
       </div>
     </div>
   )
