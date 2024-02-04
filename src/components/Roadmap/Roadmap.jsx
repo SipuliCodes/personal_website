@@ -1,22 +1,22 @@
 import "./roadmap.css"
-import RoadmapTasks from "./RoadmapTasks"
+import RoadmapTasks from "../RoadmapTasks"
 
 const Roadmap = () => {
   const futureFeatures = new Map([
-    ["Voting system", "Users can vote on, which features should be top priority"],
     ["Calculator", 'Basic calculator that can do "+, -, * and /"'],
     ["Labyrint game", "A game where you should find the path from start to end"],
     ["Feedback system", "Where users can report bugs or make wishes about features"],
-    ["Drawing wall", "Users can paint on it and every midnight it gets emptied"]
+    ["Drawing wall", "Users can paint on it and every midnight it gets emptied"],
   ])
 
   const underProgress = new Map([
-    ["Chat", "A chat forum "]
+    ["Voting system", "Users can vote on, which features should be top priority"]
   ])
 
   const completed = new Map([
     ["Home", "Home page with info about me and links to my profiles"],
-    ["Weather", "Shows temperature and wind in the city you choose"]
+    ["Weather", "Shows temperature and wind in the city you choose"],
+    ["Chat", "A chat forum"]
   ])
 
 

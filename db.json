@@ -1,0 +1,32 @@
+{
+  "messages": [
+    {
+      "id": 1,
+      "user": "pasi",
+      "message": "Hei miten menee? Minulle kuuluuu vain hyvää, toivottavasti sinullekkin. Ostin juuri uuden peli tuolin ja nyt olen menossa pelaamaan",
+      "time": "18.15",
+      "date": "02.02.2024"
+    },
+    {
+      "id": 2,
+      "user": "kati",
+      "message": "hyvin menee kiitos. Mahtava kuulla, että sinulla menee hyvin. Vau mä tuun kans heti ku oon syöny.",
+      "time": "18.20",
+      "date": "02.02.2024"
+    },
+    {
+      "id": 92262,
+      "user": "juri",
+      "message": "lol",
+      "time": "21.33",
+      "date": "02.01.2024"
+    },
+    {
+      "id": 1284808,
+      "user": "juri",
+      "message": "dsfdfsdfdfsd",
+      "time": "21.34",
+      "date": "02.01.2024"
+    }
+  ]
+}

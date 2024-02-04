@@ -1,0 +1,87 @@
+.chat-grid-container {
+  display: grid;
+}
+
+.chatbox-grid-container {
+  margin: 0 0 2% 0;
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+  display: grid;
+  grid-template-rows: 10% 1fr auto;
+  min-width: 360px;
+  max-width: 80%;
+  justify-self: center;
+  max-height: 75vh;
+}
+
+.chat-header {
+  background-color: lightgray;
+  border-radius: 15px 15px 0 0;
+  min-height: 48px;
+  max-height: 10%;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.my-chat {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  border-right: 1px solid red;
+  margin: 2% 3% 0.5% 3%;
+  padding: 3px;
+}
+
+.time-date {
+  font-size: 70%;
+}
+
+.text-message {
+  font-size: 90%;
+  text-align: start;
+}
+
+.other-chat {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border-left: 1px solid blue;
+  margin: 2% 3% 0 3%;
+  padding: 3px;
+}
+
+.send-bar {
+  display: flex;
+  justify-content: center;
+  min-height: 48px;
+  max-height: 10%;
+}
+
+.userbox {
+  margin-bottom: 1%;
+  max-width: 100%;
+}
+
+.message-input {
+  flex: 1;
+  border-bottom-left-radius: 15px;
+  margin-right: 1px;
+  background-color: lightgray;
+  color: black;
+}
+
+.send-button {
+  width: 7%;
+  min-width: 45px;
+  border-bottom-right-radius: 15px;
+}

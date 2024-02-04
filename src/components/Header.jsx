@@ -7,7 +7,8 @@ const Header = () => {
       <nav className="navigation">
         <NavLink to="/" className={({ isActive, isPending }) => isPending ? "pending navButton" : isActive ? "active navButton" : "passive navButton"}> Home </NavLink>
         <NavLink to="/weather" className={({ isActive, isPending }) => isPending ? "pending navButton" : isActive ? "active navButton" : "passive navButton"}> Weather </NavLink>
-        <NavLink to="/roadmap" className={({ isActive, isPending}) => isPending ? "pending navButton" : isActive ? "active navButton" : "passive navButton"}>Roadmap</NavLink>
+        <NavLink to="/roadmap" className={({ isActive, isPending }) => isPending ? "pending navButton" : isActive ? "active navButton" : "passive navButton"}>Roadmap</NavLink>
+        <NavLink to="/chat" className={({ isActive, isPending }) => isPending ? "pending navButton" : isActive ? "active navButton" : "passive navButton"}>Chat</NavLink>
       </nav>
       <div></div>
     </div>

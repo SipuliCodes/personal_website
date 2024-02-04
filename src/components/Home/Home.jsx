@@ -1,7 +1,7 @@
-import me_img from '../assets/me.png'
+import me_img from '../../assets/me.png'
 import "./home.css"
 
-import ContactDetails from "./ContactDetails"
+import ContactDetails from "../ContactDetails"
 
 const Home = () => {
   return (
