@@ -46,12 +46,14 @@ const Chat = () => {
     const day =  date.getDate() < 10 ? `0${date.getDate()}` : date.getDate()
     const month = date.getMonth() < 10 ? `0${date.getMonth()}` : date.getMonth()
     const year = date.getFullYear()
+
+    
     const newMessage = {
       "id": keyGen(),
       "user": pseudonym,
       "message": message ,
       "time": `${hour}.${minutes}`,
-      "date": `${day}.${month}.${year}`
+      "date": `${day}.${month + 1}.${year}`
     }
     ChatService.newMessage(newMessage)
       .then(response => {
@@ -70,8 +72,6 @@ const Chat = () => {
     setPseudonym(currentUser)
     localStorage.setItem('pseudonym', currentUser)
   }
-
-  console.log(messages)
 
   return (
     <div className="chat-grid-container">
